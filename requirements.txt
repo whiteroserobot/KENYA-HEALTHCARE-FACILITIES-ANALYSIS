@@ -1,5 +1,3 @@
-url = "https://pypi.org"
-verify_ssl = true
 name = "pypi"
 python_version = "3.9"
 matplotlib==3.5.1
