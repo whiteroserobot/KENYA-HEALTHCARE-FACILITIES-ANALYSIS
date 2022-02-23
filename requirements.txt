@@ -1,4 +1,4 @@
-url = "https://pypi.org/simple"
+url = "https://pypi.org"
 verify_ssl = true
 name = "pypi"
 python_version = "3.9"
