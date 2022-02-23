@@ -1,12 +1,6 @@
 url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
-
-[packages]
-
-[dev-packages]
-
-[requires]
 python_version = "3.9"
 matplotlib==3.5.1
 numpy==1.22.2
