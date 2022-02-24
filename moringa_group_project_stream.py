@@ -347,6 +347,7 @@ st.bar_chart(chart_data)
 # Sort records by core_health_workforce_per_10,000_population
 
 # Add the column core_health_workforce_per_10,000_population to the no_of_hospitals dataframe.
+no_of_hospitals = hospitals.groupby(['county', 'core_health_workforce_per_10,000_population'], as_index=False)[['core_health_workforce_per_10,000_population']].sum()
 no_of_hospitals.sort_values(by='core_health_workforce_per_10,000_population', ascending=1).head()
 no_of_hospitals.plot.bar('county', 'core_health_workforce_per_10,000_population', width=1, figsize=(15,9), grid=True)
 no_of_hospitals = no_of_hospitals.set_index('county')
