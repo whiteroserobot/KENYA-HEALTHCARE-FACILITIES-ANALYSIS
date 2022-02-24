@@ -55,4 +55,8 @@ six==1.16.0
 =======
     # via python-dateutil
 openpyxl==3.0.9
+<<<<<<< HEAD
 >>>>>>> 79b7eee13b3a7d06e19b1d5f307b3a7f3adb77ed
+=======
+seaborn==0.11.2
+>>>>>>> f2e4274a9ed5180b81c81195909f6a0b9ec7f4c9
