@@ -40,7 +40,7 @@ if uploaded_file is not None:
    hospitals = pd.read_csv(uploaded_file)
    st.write(hospitals)
 
-hospitals = pd.read_csv('./Downloads/ehealth.csv')
+hospitals = pd.read_csv('ehealth.csv')
 #st.title("Moringa Project")  # add a title
 #st.write(hospitals) 
 # Preview the dataset 
